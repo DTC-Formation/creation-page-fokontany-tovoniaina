@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&family=Varela+Round&display=swap');
+
+:root{
+    /****************BODY FONT****************/
+    --bodyFont: "Nunito Sans";
+    /****************COLORS****************/
+    --primary-color:#CF5C36;
+    --secondary-color : #EFC88B;
+    --tertiary-color : #101038;
+    --white-color : #fff;
+    --black-color : #000;
+    --gray-color : #363430;
+}
+
+    /****************BODY****************/
+    body{
+        background-color: var(--secondary-color);
+        font-family: var(--bodyFont);
+        font-size: large;
+    }
+
+    /****************FKT CONTAINER****************/
+.fkt__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 5% 20% 5% 20%;
+    
+  }
+  
+  .fkt__left__container,
+  .fkt__right__container {
+    flex: 1;
+  }
+
+  .fkt__left__container{
+    width: 30%;
+  }
+
+  .fkt__right__container{
+    width: 70%;
+  }
+  /****************FKT LEFT CONTAINER****************/
+  .fkt__left__container {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0px 30px 30px 30px;
+    height: 720px;
+    justify-content: center;
+    align-items: center;
+  }
+  .fkt__left__logo__container{
+    margin-top: 20px;
+    display: flex;
+  }
+  .fkt__left__logo{
+    width: 30px;
+    height: 30px;
+    
+  }
+
+  .fkt__left__logo__title{
+    font-weight: bolder;
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+
+  .fkt__left__headline{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 6rem;
+  }
+  
+  /****************FKT RIGHT CONTAINER****************/
+  .fkt__right__container {
+    background-color: var(--white-color);
+    padding: 0px 30px 30px 90px;
+    height: 720px;
+    color: var(--gray-color);
+    
+  }
+
+  .fkt__right__headline__title{
+    margin-top: 6rem;
+  }
+
+  /****************FKT SIGNUP FORM GROUP****************/
+  .fkt__signup__form__group{
+    margin-top: 2rem;
+  }
+
+  input, option, select{
+    height: 34px;
+    outline: none;
+    border: 1px solid var(--gray-color);
+    border-radius: 3px;
+    width: 262px !important;
+  }
+  
+  .fkt__form__group{
+    display: flex;
+    margin-top: 15px;
+  }
+.fkt__form__group__input{
+    margin-right: 10px;
+    
+}
+
+.fkt__form__group__input > input, select {
+    border-color: var(--primary-color);
+    padding-left: 10px;
+    font-family: var(--bodyFont);
+}
+
+.fkt__checkbox{
+    height: 20px;
+    outline: none;
+    border: 1px solid var(--gray-color);
+    border-radius: 3px;
+    width: 20px !important;
+    margin-top: 10px;
+    margin-right: -5px;
+}
+
+.fkt__consent__checkbox{
+    margin-bottom: 10px;
+}
+
+.fkt__right__submit__btn{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--primary-color);
+    outline: none;
+    color: var(--white-color);
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+    /* padding: 5px 5px 5px 5px; */
+}
+
+.fkt__signin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/**************SIGNIN***************/
+
+.fkt__signin__container{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--primary-color);
+    width: 500px;
+    height: 600px;
+    padding: 20px 20px 20px 20px;
+}
+
+.fkt__signin__title{
+    color: var(--white-color);
+    text-align: center;
+}
+
+.fkt__signin__form__group{
+    margin-top: 20px;  
+}
+
+.fkt__signin__input__group{
+    align-items: center;
+    justify-content: center;
+    
+
+}
